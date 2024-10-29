@@ -1,0 +1,25 @@
+.accrdion-header {
+    background-color: #222;
+    border-bottom: 1px solid #fafafa;
+    color: #fff;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .accrdion-content {
+    padding: .5rem 1rem;
+    display:none;
+  }
+  .accrdion-header{opacity: 0.6;}
+  .accrdion-header.active{opacity: 1;}
+  .accrdion-content.open{display: block;}
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  #achp_payement_cotainer .wc-credit-card-form-card-cvc, #achp_payement_cotainer .wc-credit-card-form-card-expiry, #achp_payement_cotainer .wc-credit-card-form-card-number {
+	font-size: 1em!important;
+}
+.achp_error{font-style: italic;color: red; margin: 5px 0;}
